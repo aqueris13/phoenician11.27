@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Phoenician Holdings</title>
+<meta name="description" content="Phoenician Holdings acquires, builds, and operates car washes, backed by data at every step.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="hero bar"><header class="site-header"><div class="frame">
+  <a class="logo" href="index.html">Phoenician<br>Holdings</a>
+  <nav class="main-nav" id="nav"><a href="index.html#track-record">Track Record</a><a href="case-studies.html">Case Studies</a><a href="investors.html">Investors</a><a href="about.html">About</a></nav>
+  <button class="nav-toggle" aria-label="Menu" aria-controls="nav">&#9776;</button>
+  <a class="btn" href="contact.html">Talk to Us</a>
+</div></header></div>
+<section class="contact-body"><div class="frame"><div class="cgrid2"><div><p class="kicker">Contact us</p><h1>Let’s talk.</h1>
+<p class="lead">Whether you're exploring a sale, evaluating a partnership, or just want to learn more.</p>
+<p class="em">Email</p><a class="mail" href="mailto:rob@phoenician-holdings.com">rob@phoenician-holdings.com</a></div>
+<div class="form-card"><form id="contact-form">
+<div class="field"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+<div class="field"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+<div class="field"><label for="phone">Phone</label><input type="tel" id="phone" name="phone"></div>
+<div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+<button type="submit" class="btn navy">Send Message</button></form></div></div></div></section>
+<script>document.getElementById('contact-form').addEventListener('submit',function(e){e.preventDefault();alert('Thanks, this form is a demo and is not yet connected to send messages. Wire it up to your email service or a form backend (e.g. Formspree) when ready.');});</script>
+<footer class="site-footer"><div class="frame">
+  <div><a class="logo" href="index.html">Phoenician<br>Holdings</a><p>Acquiring, building, and operating car washes, backed by data at every step.</p></div>
+  <div><h5>Company</h5><ul><li><a href="about.html">About</a></li><li><a href="case-studies.html">Case Studies</a></li></ul></div>
+  <div><h5>Work With Us</h5><ul><li><a href="contact.html">Sell Your Car Wash</a></li><li><a href="contact.html">Development</a></li><li><a href="investors.html">Investors</a></li></ul></div>
+</div></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
